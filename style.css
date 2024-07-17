@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 70, 71);
+}
+.Form {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(1e3c9340-25dd-11ee-b81c-11c469e68cc4.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.Form h1 {
+    margin-top: 95px;
+    font-family: 'Permanet Marker', cursive;
+    color: white;
+    font-size: 43px;
+}
+.Form input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: "montserrat", sans-serif;
+}
+.Textform {
+    margin: 15px 0;
+    background: rgb(255, 255, 255, .5);
+    border-radius: 8px;
+}
+.Signup {
+    margin-top: 55px;
+    margin-bottom: 15px;
+    background: rgb(24, 149, 180);
+    color: white;
+    cursor: pointer;
+    transition: 0.8;
+    border-radius: 45px;
+}
+.Signup:hover {
+    background-color: rgb(0, 89, 255);
+    transform: scale(0.95);
+}
+.Form a {
+    text-decoration: none;
+    color: azure;
+    font-family: "montserrat", sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+.Form a:hover {
+   background: rgb(48, 48, 192);
+   border-radius: 15px;
+}
